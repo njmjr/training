@@ -21,4 +21,9 @@ public class HelloController {
         dog.setName("萨122摩耶2");
         return dog;
     }
+
+    @RequestMapping(value = "/zeroException",method = RequestMethod.GET)
+    public int zeroException(){
+        return 100/0;
+    }
 }
