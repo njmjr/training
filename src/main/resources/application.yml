@@ -1,3 +1,11 @@
 server:
   address: 0.0.0.0
   port: 5008
+
+staticSourse:
+  picFile: file:D:/test/image/
+spring:
+  mvc:
+   view:
+    prefix: /WEB-INF/jsp/
+    suffix: .jsp
